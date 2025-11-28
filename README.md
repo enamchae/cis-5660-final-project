@@ -64,7 +64,7 @@ Milestone 1
 
 Milestone 2
 1. Larger-scale optimization (more brushstrokes)
-2. Larger-scale edge detection settingss
+2. Larger-scale edge detection settings
 3. 3D scene upload
 
 Final
@@ -74,7 +74,7 @@ Submit your Design doc as usual via pull request against this repository.
 ## Milestone 1: Implementation part 1 (due 11/12)
 Begin implementing your engine! Don't worry too much about polish or parameter tuning -- this week is about getting together the bulk of your generator implemented. By the end of the week, even if your visuals are crude, the majority of your generator's functionality should be done.
 
-Put all your code in your forked repository.
+Put all your code in your forked repository. - https://github.com/enamchae/brushsplat
 
 Submission: Add a new section to your README titled: Milestone #1, which should include
 - written description of progress on your project goals. If you haven't hit all your goals, what's giving you trouble?
@@ -90,12 +90,18 @@ We'll check your repository for updates. No need to create a new pull request.
 ## Milestone 2: Implementation part 2 (due 11/24)
 We're over halfway there! This week should be about fixing bugs and extending the core of your generator. Make sure by the end of this week _your generator works and is feature complete._ Any core engine features that don't make it in this week should be cut! Don't worry if you haven't managed to exactly hit your goals. We're more interested in seeing proof of your development effort than knowing your planned everything perfectly. 
 
-Put all your code in your forked repository.
+Put all your code in your forked repository. - https://github.com/enamchae/brushsplat
 
 Submission: Add a new section to your README titled: Milestone #3, which should include
 - written description of progress on your project goals. If you haven't hit all your goals, what did you have to cut and why? 
 - Detailed output from your generator, images, video, etc.
 We'll check your repository for updates. No need to create a new pull request.
+
+<img width="672" height="848" alt="image" src="https://github.com/user-attachments/assets/f210d496-e492-495e-b66f-1fe7d3630f34" />
+
+1. Brushstroke parameterization and gradient descent - Implemented with some hardcoded learning rates. Currently done one brushstroke at a time and on the CPU. Working on migrating to the GPU.
+2. Edge detection - Currently just done by tuning the learning strategy (e.g., spawning new brushstrokes where the old brushstrokes start/end).
+3. 3D scene - Dropping per TA feedback, 2D is perfectly sufficient!
 
 Come to class on the due date with a WORKING COPY of your project. We'll be spending time in class critiquing and reviewing your work so far.
 
