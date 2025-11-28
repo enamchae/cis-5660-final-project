@@ -101,7 +101,8 @@ We'll check your repository for updates. No need to create a new pull request.
 
 1. Brushstroke parameterization and gradient descent - Implemented with some hardcoded learning rates. Currently done one brushstroke at a time and on the CPU. Working on migrating to the GPU.
 2. Edge detection - Currently just done by tuning the learning strategy (e.g., spawning new brushstrokes where the old brushstrokes start/end).
-3. 3D scene - Dropping per TA feedback, 2D is perfectly sufficient!
+3. 3D scene - Dropping as per TA feedback, 2D is perfectly sufficient!
+4. Settings - Limiting scope as per instructor feedback, since just a few options are fine
 
 Come to class on the due date with a WORKING COPY of your project. We'll be spending time in class critiquing and reviewing your work so far.
 
