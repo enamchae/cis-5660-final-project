@@ -116,6 +116,23 @@ Submission:
   - final results with images and a live demo if possible
   - post mortem: how did your project go overall? Did you accomplish your goals? Did you have to pivot?
 
+### Final result
+
+https://github.com/user-attachments/assets/3a394577-0e9c-4c99-83e0-4d83731ccfd9
+
+![](./1.png)
+
+![](./2.png)
+
+![](./3.png)
+
+![](./4.png)
+
+![](./5.png)
+
+### Postmortem
+1. Core of project (gradient descent optimization) finished by milestone 2. Spent quite a bit of time on certain features like porting to the GPU, edge detection, and contrast detection which didn't end up making it, including the milestone 1 work with the textured brushstroke. Added a lightness mode and color palette settings instead. 
+
 ## Topic Suggestions
 
 ### Create a generator in Houdini
